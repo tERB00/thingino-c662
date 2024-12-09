@@ -24,7 +24,7 @@ THINGINO_FFMPEG_CONF_OPTS = \
 	--disable-filters \
 	--disable-encoders \
 	--disable-decoders --enable-decoder=h264,hevc \
-	--disable-muxers --enable-muxer=flv,rtsp \
+	--disable-muxers --enable-muxer=flv,rtsp,image2 \
 	--disable-demuxers --enable-demuxer=h264,rtsp \
 	--disable-parsers --enable-parser=h264,hevc \
 	--disable-protocols --enable-protocol=file,rtmp,tcp \
